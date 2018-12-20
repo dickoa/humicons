@@ -1,0 +1,30 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figure/"
+)
+```
+
+An R package to easily insert humanitarian web icons into rmarkdown.
+
+It works with inline code `` `r '\x60r humicon::humicon("Agriculture")\x60'` `` and chunks:
+
+````
+```{r, eval=FALSE}
+humicon::hi("Agriculture")
+```
+````
+
+The **development** version can be installed from GitHub using:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("remotes")
+remotes::install_gitlab("dickoa/humicon")
+```

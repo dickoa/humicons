@@ -1,0 +1,1206 @@
+@font-face {
+  font-family: 'Humanitarian-Icons-v02';
+  src:  url('../fonts/Humanitarian-Icons-v02.eot?134lo3');
+  src:  url('../fonts/Humanitarian-Icons-v02.eot?134lo3#iefix') format('embedded-opentype'),
+    url('../fonts/Humanitarian-Icons-v02.ttf?134lo3') format('truetype'),
+    url('../fonts/Humanitarian-Icons-v02.woff?134lo3') format('woff'),
+    url('../fonts/Humanitarian-Icons-v02.svg?134lo3#Humanitarian-Icons-v02') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="hi-"], [class*=" hi-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Humanitarian-Icons-v02' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hi-Abduction-kidnapping:before {
+  content: "\e900";
+  color: #418fde;
+}
+.hi-About:before {
+  content: "\e901";
+  color: #418fde;
+}
+.hi-Add-document:before {
+  content: "\e902";
+  color: #418fde;
+}
+.hi-Add:before {
+  content: "\e903";
+  color: #418fde;
+}
+.hi-Advocacy:before {
+  content: "\e904";
+  color: #418fde;
+}
+.hi-Affected-population:before {
+  content: "\e905";
+  color: #418fde;
+}
+.hi-Agriculture:before {
+  content: "\e906";
+  color: #418fde;
+}
+.hi-Airport-affected:before {
+  content: "\e907";
+  color: #418fde;
+}
+.hi-Airport-destroyed:before {
+  content: "\e908";
+  color: #418fde;
+}
+.hi-Airport-military:before {
+  content: "\e909";
+  color: #418fde;
+}
+.hi-Airport-not-affected:before {
+  content: "\e90a";
+  color: #418fde;
+}
+.hi-Airport:before {
+  content: "\e90b";
+  color: #418fde;
+}
+.hi-Alert:before {
+  content: "\e90c";
+  color: #418fde;
+}
+.hi-Analysis:before {
+  content: "\e90d";
+  color: #418fde;
+}
+.hi-Arrest-detention:before {
+  content: "\e90e";
+  color: #418fde;
+}
+.hi-Assault:before {
+  content: "\e90f";
+  color: #418fde;
+}
+.hi-Assembly-point:before {
+  content: "\e910";
+  color: #418fde;
+}
+.hi-Assessment:before {
+  content: "\e911";
+  color: #418fde;
+}
+.hi-Attack:before {
+  content: "\e912";
+  color: #418fde;
+}
+.hi-Blanket:before {
+  content: "\e913";
+  color: #418fde;
+}
+.hi-Blog:before {
+  content: "\e914";
+  color: #418fde;
+}
+.hi-Boat:before {
+  content: "\e915";
+  color: #418fde;
+}
+.hi-Bookmark:before {
+  content: "\e916";
+  color: #418fde;
+}
+.hi-Border-crossing:before {
+  content: "\e917";
+  color: #418fde;
+}
+.hi-Borehole:before {
+  content: "\e918";
+  color: #418fde;
+}
+.hi-Bottled-water:before {
+  content: "\e919";
+  color: #418fde;
+}
+.hi-Bridge-affected:before {
+  content: "\e91a";
+  color: #418fde;
+}
+.hi-Bridge-destroyed:before {
+  content: "\e91b";
+  color: #418fde;
+}
+.hi-Bridge-not-affected:before {
+  content: "\e91c";
+  color: #418fde;
+}
+.hi-Bridge:before {
+  content: "\e91d";
+  color: #418fde;
+}
+.hi-Bucket:before {
+  content: "\e91e";
+  color: #418fde;
+}
+.hi-Buddhist-temple:before {
+  content: "\e91f";
+  color: #418fde;
+}
+.hi-Building-facility-affected:before {
+  content: "\e920";
+  color: #418fde;
+}
+.hi-Building-facility-destroyed:before {
+  content: "\e921";
+  color: #418fde;
+}
+.hi-Building-facility-not-affected:before {
+  content: "\e922";
+  color: #418fde;
+}
+.hi-Building:before {
+  content: "\e923";
+  color: #418fde;
+}
+.hi-Bus:before {
+  content: "\e924";
+  color: #418fde;
+}
+.hi-Calendar:before {
+  content: "\e925";
+  color: #418fde;
+}
+.hi-Camp-Coordination-and-Camp-Management:before {
+  content: "\e926";
+  color: #418fde;
+}
+.hi-Car:before {
+  content: "\e927";
+  color: #418fde;
+}
+.hi-Carjacking:before {
+  content: "\e928";
+  color: #418fde;
+}
+.hi-Cash-transfer:before {
+  content: "\e929";
+  color: #418fde;
+}
+.hi-Cell-tower:before {
+  content: "\e92a";
+  color: #418fde;
+}
+.hi-Chart:before {
+  content: "\e92b";
+  color: #418fde;
+}
+.hi-Chat:before {
+  content: "\e92c";
+  color: #418fde;
+}
+.hi-Checkpoint:before {
+  content: "\e92d";
+  color: #418fde;
+}
+.hi-Child-combatant:before {
+  content: "\e92e";
+  color: #418fde;
+}
+.hi-Children:before {
+  content: "\e92f";
+  color: #418fde;
+}
+.hi-Church:before {
+  content: "\e930";
+  color: #418fde;
+}
+.hi-Civil-military-coordination:before {
+  content: "\e931";
+  color: #418fde;
+}
+.hi-Clinic:before {
+  content: "\e932";
+  color: #418fde;
+}
+.hi-Clothing:before {
+  content: "\e933";
+  color: #418fde;
+}
+.hi-Cold-wave:before {
+  content: "\e934";
+  color: #418fde;
+}
+.hi-Communal-latrine:before {
+  content: "\e935";
+  color: #418fde;
+}
+.hi-Community-building:before {
+  content: "\e936";
+  color: #418fde;
+}
+.hi-Community-engagement:before {
+  content: "\e937";
+  color: #418fde;
+}
+.hi-Computer:before {
+  content: "\e938";
+  color: #418fde;
+}
+.hi-Conflict:before {
+  content: "\e939";
+  color: #418fde;
+}
+.hi-Coordinated-assessement:before {
+  content: "\e93a";
+  color: #418fde;
+}
+.hi-Coordination:before {
+  content: "\e93b";
+  color: #418fde;
+}
+.hi-Copy:before {
+  content: "\e93c";
+  color: #418fde;
+}
+.hi-Cyclone:before {
+  content: "\e93d";
+  color: #418fde;
+}
+.hi-Damaged-Affected:before {
+  content: "\e93e";
+  color: #418fde;
+}
+.hi-Dangerous-area:before {
+  content: "\e93f";
+  color: #418fde;
+}
+.hi-Data:before {
+  content: "\e940";
+  color: #418fde;
+}
+.hi-Dead:before {
+  content: "\e941";
+  color: #418fde;
+}
+.hi-Debris-management:before {
+  content: "\e942";
+  color: #418fde;
+}
+.hi-Deployment:before {
+  content: "\e943";
+  color: #418fde;
+}
+.hi-Destroyed:before {
+  content: "\e944";
+  color: #418fde;
+}
+.hi-Detergent:before {
+  content: "\e945";
+  color: #418fde;
+}
+.hi-Diplomatic-mission:before {
+  content: "\e946";
+  color: #418fde;
+}
+.hi-Distribution-site:before {
+  content: "\e947";
+  color: #418fde;
+}
+.hi-Document:before {
+  content: "\e948";
+  color: #418fde;
+}
+.hi-Download:before {
+  content: "\e949";
+  color: #418fde;
+}
+.hi-Drought:before {
+  content: "\e94a";
+  color: #418fde;
+}
+.hi-Drowned:before {
+  content: "\e94b";
+  color: #418fde;
+}
+.hi-E-mail:before {
+  content: "\e94c";
+  color: #418fde;
+}
+.hi-Early-Recovery:before {
+  content: "\e94d";
+  color: #418fde;
+}
+.hi-Earthmound:before {
+  content: "\e94e";
+  color: #418fde;
+}
+.hi-Earthquake:before {
+  content: "\e94f";
+  color: #418fde;
+}
+.hi-Education:before {
+  content: "\e950";
+  color: #418fde;
+}
+.hi-Elderly:before {
+  content: "\e951";
+  color: #418fde;
+}
+.hi-Emergency-Telecommunications:before {
+  content: "\e952";
+  color: #418fde;
+}
+.hi-Environment:before {
+  content: "\e953";
+  color: #418fde;
+}
+.hi-Epidemic:before {
+  content: "\e954";
+  color: #418fde;
+}
+.hi-Exit-Cancel:before {
+  content: "\e955";
+  color: #418fde;
+}
+.hi-Favourite:before {
+  content: "\e956";
+  color: #418fde;
+}
+.hi-Fax:before {
+  content: "\e957";
+  color: #418fde;
+}
+.hi-Ferry:before {
+  content: "\e958";
+  color: #418fde;
+}
+.hi-Film:before {
+  content: "\e959";
+  color: #418fde;
+}
+.hi-Financing:before {
+  content: "\e95a";
+  color: #418fde;
+}
+.hi-Fire:before {
+  content: "\e95b";
+  color: #418fde;
+}
+.hi-Fishery:before {
+  content: "\e95c";
+  color: #418fde;
+}
+.hi-Flash-flood:before {
+  content: "\e95d";
+  color: #418fde;
+}
+.hi-Flood:before {
+  content: "\e95e";
+  color: #418fde;
+}
+.hi-Flour:before {
+  content: "\e95f";
+  color: #418fde;
+}
+.hi-Folder:before {
+  content: "\e960";
+  color: #418fde;
+}
+.hi-Food-Security:before {
+  content: "\e961";
+  color: #418fde;
+}
+.hi-Food-warehouse:before {
+  content: "\e962";
+  color: #418fde;
+}
+.hi-Food:before {
+  content: "\e963";
+  color: #418fde;
+}
+.hi-Forced-entry:before {
+  content: "\e964";
+  color: #418fde;
+}
+.hi-Forced-recruitment:before {
+  content: "\e965";
+  color: #418fde;
+}
+.hi-Fund:before {
+  content: "\e966";
+  color: #418fde;
+}
+.hi-Gap-analysis:before {
+  content: "\e967";
+  color: #418fde;
+}
+.hi-Gas-station:before {
+  content: "\e968";
+  color: #418fde;
+}
+.hi-Go:before {
+  content: "\e969";
+  color: #418fde;
+}
+.hi-Government-office:before {
+  content: "\e96a";
+  color: #418fde;
+}
+.hi-Group:before {
+  content: "\e96b";
+  color: #418fde;
+}
+.hi-Harassment-intimidation:before {
+  content: "\e96c";
+  color: #418fde;
+}
+.hi-Health-facility:before {
+  content: "\e96d";
+  color: #418fde;
+}
+.hi-Health-post:before {
+  content: "\e96e";
+  color: #418fde;
+}
+.hi-Health:before {
+  content: "\e96f";
+  color: #5091cd;
+}
+.hi-Heatwave:before {
+  content: "\e970";
+  color: #418fde;
+}
+.hi-Heavy-rain:before {
+  content: "\e971";
+  color: #418fde;
+}
+.hi-Helicopter:before {
+  content: "\e972";
+  color: #418fde;
+}
+.hi-Helipad:before {
+  content: "\e973";
+  color: #418fde;
+}
+.hi-Help:before {
+  content: "\e974";
+  color: #418fde;
+}
+.hi-Hidden:before {
+  content: "\e975";
+  color: #418fde;
+}
+.hi-Hindu-temple:before {
+  content: "\e976";
+  color: #418fde;
+}
+.hi-Hospital:before {
+  content: "\e977";
+  color: #418fde;
+}
+.hi-Hotel:before {
+  content: "\e978";
+  color: #418fde;
+}
+.hi-House-affected:before {
+  content: "\e979";
+  color: #418fde;
+}
+.hi-House-burned:before {
+  content: "\e97a";
+  color: #418fde;
+}
+.hi-House-destroyed:before {
+  content: "\e97b";
+  color: #418fde;
+}
+.hi-House-not-affected:before {
+  content: "\e97c";
+  color: #418fde;
+}
+.hi-House:before {
+  content: "\e97d";
+  color: #418fde;
+}
+.hi-Humanitarian-access:before {
+  content: "\e97e";
+  color: #418fde;
+}
+.hi-Humanitarian-programme-cycle:before {
+  content: "\e97f";
+  color: #418fde;
+}
+.hi-IDP-refugee-camp:before {
+  content: "\e980";
+  color: #418fde;
+}
+.hi-Infant-formula:before {
+  content: "\e981";
+  color: #418fde;
+}
+.hi-Infant:before {
+  content: "\e982";
+  color: #418fde;
+}
+.hi-Information-management:before {
+  content: "\e983";
+  color: #418fde;
+}
+.hi-Information-technology:before {
+  content: "\e984";
+  color: #418fde;
+}
+.hi-Infrastructure:before {
+  content: "\e985";
+  color: #418fde;
+}
+.hi-Injured:before {
+  content: "\e986";
+  color: #418fde;
+}
+.hi-Innovation:before {
+  content: "\e987";
+  color: #418fde;
+}
+.hi-Insect-infestation:before {
+  content: "\e988";
+  color: #418fde;
+}
+.hi-Internally-displaced:before {
+  content: "\e989";
+  color: #418fde;
+}
+.hi-Internet:before {
+  content: "\e98a";
+  color: #418fde;
+}
+.hi-Kitchen-set:before {
+  content: "\e98b";
+  color: #418fde;
+}
+.hi-Landslide-mudslide:before {
+  content: "\e98c";
+  color: #418fde;
+}
+.hi-Laptop:before {
+  content: "\e98d";
+  color: #418fde;
+}
+.hi-Latrine-cabin:before {
+  content: "\e98e";
+  color: #418fde;
+}
+.hi-Leadership:before {
+  content: "\e98f";
+  color: #418fde;
+}
+.hi-Learning:before {
+  content: "\e990";
+  color: #418fde;
+}
+.hi-Livelihood:before {
+  content: "\e991";
+  color: #418fde;
+}
+.hi-Livestock:before {
+  content: "\e992";
+  color: #418fde;
+}
+.hi-Location:before {
+  content: "\e993";
+  color: #418fde;
+}
+.hi-Locust-infestation:before {
+  content: "\e994";
+  color: #418fde;
+}
+.hi-Logistics:before {
+  content: "\e995";
+  color: #418fde;
+}
+.hi-Map:before {
+  content: "\e996";
+  color: #418fde;
+}
+.hi-Mattress:before {
+  content: "\e997";
+  color: #418fde;
+}
+.hi-Medical-supply:before {
+  content: "\e998";
+  color: #418fde;
+}
+.hi-Medicine:before {
+  content: "\e999";
+  color: #418fde;
+}
+.hi-Meeting:before {
+  content: "\e99a";
+  color: #418fde;
+}
+.hi-Menu:before {
+  content: "\e99b";
+  color: #418fde;
+}
+.hi-Military-gate:before {
+  content: "\e99c";
+  color: #418fde;
+}
+.hi-Mine:before {
+  content: "\e99d";
+  color: #418fde;
+}
+.hi-Missing:before {
+  content: "\e99e";
+  color: #418fde;
+}
+.hi-Mobile-clinic:before {
+  content: "\e99f";
+  color: #418fde;
+}
+.hi-Mobile-phone:before {
+  content: "\e9a0";
+  color: #418fde;
+}
+.hi-Monitor:before {
+  content: "\e9a1";
+  color: #418fde;
+}
+.hi-Monitoring:before {
+  content: "\e9a2";
+  color: #418fde;
+}
+.hi-More-options:before {
+  content: "\e9a3";
+  color: #418fde;
+}
+.hi-Mosque:before {
+  content: "\e9a4";
+  color: #418fde;
+}
+.hi-Mosquito-net:before {
+  content: "\e9a5";
+  color: #418fde;
+}
+.hi-Multi-cluster-sector:before {
+  content: "\e9a6";
+  color: #418fde;
+}
+.hi-Murder:before {
+  content: "\e9a7";
+  color: #418fde;
+}
+.hi-National-army:before {
+  content: "\e9a8";
+  color: #418fde;
+}
+.hi-Needs-assessment:before {
+  content: "\e9a9";
+  color: #418fde;
+}
+.hi-Next-item:before {
+  content: "\e9aa";
+  color: #418fde;
+}
+.hi-NGO-office:before {
+  content: "\e9ab";
+  color: #418fde;
+}
+.hi-Non-food-items:before {
+  content: "\e9ac";
+  color: #418fde;
+}
+.hi-Not-affected:before {
+  content: "\e9ad";
+  color: #418fde;
+}
+.hi-Notification:before {
+  content: "\e9ae";
+  color: #418fde;
+}
+.hi-Nutrition:before {
+  content: "\e9af";
+  color: #418fde;
+}
+.hi-Observation-tower:before {
+  content: "\e9b0";
+  color: #418fde;
+}
+.hi-Oil:before {
+  content: "\e9b1";
+  color: #418fde;
+}
+.hi-Out-of-platform:before {
+  content: "\e9b2";
+  color: #418fde;
+}
+.hi-Partnership:before {
+  content: "\e9b3";
+  color: #418fde;
+}
+.hi-Pause:before {
+  content: "\e9b4";
+  color: #418fde;
+}
+.hi-Peacekeeping-force:before {
+  content: "\e9b5";
+  color: #418fde;
+}
+.hi-People-with-physical-impairments:before {
+  content: "\e9b6";
+  color: #418fde;
+}
+.hi-Permanent-camp:before {
+  content: "\e9b7";
+  color: #418fde;
+}
+.hi-Person-1:before {
+  content: "\e9b8";
+  color: #5091cd;
+}
+.hi-Person-2:before {
+  content: "\e9b9";
+  color: #418fde;
+}
+.hi-Photo:before {
+  content: "\e9ba";
+  color: #418fde;
+}
+.hi-Physical-closure:before {
+  content: "\e9bb";
+  color: #418fde;
+}
+.hi-Plastic-sheeting:before {
+  content: "\e9bc";
+  color: #418fde;
+}
+.hi-Police-station:before {
+  content: "\e9bd";
+  color: #418fde;
+}
+.hi-Policy:before {
+  content: "\e9be";
+  color: #418fde;
+}
+.hi-Population-growth:before {
+  content: "\e9bf";
+  color: #418fde;
+}
+.hi-Population-return:before {
+  content: "\e9c0";
+  color: #418fde;
+}
+.hi-Port-affected:before {
+  content: "\e9c1";
+  color: #418fde;
+}
+.hi-Port-destroyed:before {
+  content: "\e9c2";
+  color: #418fde;
+}
+.hi-Port-not-affected:before {
+  content: "\e9c3";
+  color: #418fde;
+}
+.hi-Port:before {
+  content: "\e9c4";
+  color: #418fde;
+}
+.hi-Potable-water-source:before {
+  content: "\e9c5";
+  color: #418fde;
+}
+.hi-Potable-water:before {
+  content: "\e9c6";
+  color: #418fde;
+}
+.hi-Pregnant:before {
+  content: "\e9c7";
+  color: #418fde;
+}
+.hi-Preparedness:before {
+  content: "\e9c8";
+  color: #418fde;
+}
+.hi-Previous-item:before {
+  content: "\e9c9";
+  color: #418fde;
+}
+.hi-Print:before {
+  content: "\e9ca";
+  color: #418fde;
+}
+.hi-Protection:before {
+  content: "\e9cb";
+  color: #418fde;
+}
+.hi-Public-information:before {
+  content: "\e9cc";
+  color: #418fde;
+}
+.hi-Radio:before {
+  content: "\e9cd";
+  color: #418fde;
+}
+.hi-Rebel:before {
+  content: "\e9ce";
+  color: #418fde;
+}
+.hi-Reconstruction:before {
+  content: "\e9cf";
+  color: #418fde;
+}
+.hi-Refugee:before {
+  content: "\e9d0";
+  color: #418fde;
+}
+.hi-Registration:before {
+  content: "\e9d1";
+  color: #418fde;
+}
+.hi-Relief-goods:before {
+  content: "\e9d2";
+  color: #418fde;
+}
+.hi-Remove-document:before {
+  content: "\e9d3";
+  color: #418fde;
+}
+.hi-Remove:before {
+  content: "\e9d4";
+  color: #418fde;
+}
+.hi-Report:before {
+  content: "\e9d5";
+  color: #418fde;
+}
+.hi-Reporting:before {
+  content: "\e9d6";
+  color: #418fde;
+}
+.hi-Response:before {
+  content: "\e9d7";
+  color: #418fde;
+}
+.hi-Return:before {
+  content: "\e9d8";
+  color: #418fde;
+}
+.hi-Rice:before {
+  content: "\e9d9";
+  color: #418fde;
+}
+.hi-Road-affected:before {
+  content: "\e9da";
+  color: #418fde;
+}
+.hi-Road-barrier:before {
+  content: "\e9db";
+  color: #418fde;
+}
+.hi-Road-destroyed:before {
+  content: "\e9dc";
+  color: #418fde;
+}
+.hi-Road-not-affected:before {
+  content: "\e9dd";
+  color: #418fde;
+}
+.hi-Road:before {
+  content: "\e9de";
+  color: #418fde;
+}
+.hi-Roadblock:before {
+  content: "\e9df";
+  color: #418fde;
+}
+.hi-Robbery:before {
+  content: "\e9e0";
+  color: #418fde;
+}
+.hi-Rule-of-law-and-justice:before {
+  content: "\e9e1";
+  color: #418fde;
+}
+.hi-Rural-exodus:before {
+  content: "\e9e2";
+  color: #418fde;
+}
+.hi-Rural:before {
+  content: "\e9e3";
+  color: #418fde;
+}
+.hi-Safety-and-security:before {
+  content: "\e9e4";
+  color: #418fde;
+}
+.hi-Salt:before {
+  content: "\e9e5";
+  color: #418fde;
+}
+.hi-Sanitation:before {
+  content: "\e9e6";
+  color: #418fde;
+}
+.hi-Satellite-dish:before {
+  content: "\e9e7";
+  color: #418fde;
+}
+.hi-Save:before {
+  content: "\e9e8";
+  color: #418fde;
+}
+.hi-Scale-down-operation:before {
+  content: "\e9e9";
+  color: #418fde;
+}
+.hi-Scale-up-operation:before {
+  content: "\e9ea";
+  color: #418fde;
+}
+.hi-School-affected:before {
+  content: "\e9eb";
+  color: #418fde;
+}
+.hi-School-destroyed:before {
+  content: "\e9ec";
+  color: #418fde;
+}
+.hi-School-not-affected:before {
+  content: "\e9ed";
+  color: #418fde;
+}
+.hi-School:before {
+  content: "\e9ee";
+  color: #418fde;
+}
+.hi-Search:before {
+  content: "\e9ef";
+  color: #418fde;
+}
+.hi-See:before {
+  content: "\e9f0";
+  color: #418fde;
+}
+.hi-Selected:before {
+  content: "\e9f1";
+  color: #418fde;
+}
+.hi-Services-and-tools:before {
+  content: "\e9f2";
+  color: #418fde;
+}
+.hi-Settings:before {
+  content: "\e9f3";
+  color: #418fde;
+}
+.hi-Sexual-violence:before {
+  content: "\e9f4";
+  color: #418fde;
+}
+.hi-Share:before {
+  content: "\e9f5";
+  color: #418fde;
+}
+.hi-Shelter:before {
+  content: "\e9f6";
+  color: #418fde;
+}
+.hi-Ship:before {
+  content: "\e9f7";
+  color: #418fde;
+}
+.hi-Shower:before {
+  content: "\e9f8";
+  color: #418fde;
+}
+.hi-Smartphone:before {
+  content: "\e9f9";
+  color: #418fde;
+}
+.hi-Snow-avalanche:before {
+  content: "\e9fa";
+  color: #418fde;
+}
+.hi-Snowfall:before {
+  content: "\e9fb";
+  color: #418fde;
+}
+.hi-Soap:before {
+  content: "\e9fc";
+  color: #418fde;
+}
+.hi-Solid-waste:before {
+  content: "\e9fd";
+  color: #418fde;
+}
+.hi-Spontaneous-site:before {
+  content: "\e9fe";
+  color: #418fde;
+}
+.hi-Spring-water:before {
+  content: "\e9ff";
+  color: #418fde;
+}
+.hi-Staff-management:before {
+  content: "\ea00";
+  color: #418fde;
+}
+.hi-Stop:before {
+  content: "\ea01";
+  color: #418fde;
+}
+.hi-Storm-surge:before {
+  content: "\ea02";
+  color: #418fde;
+}
+.hi-Storm:before {
+  content: "\ea03";
+  color: #418fde;
+}
+.hi-Stove:before {
+  content: "\ea04";
+  color: #418fde;
+}
+.hi-Submersible-pump:before {
+  content: "\ea05";
+  color: #418fde;
+}
+.hi-Sugar:before {
+  content: "\ea06";
+  color: #418fde;
+}
+.hi-Table:before {
+  content: "\ea07";
+  color: #418fde;
+}
+.hi-Tarpaulin:before {
+  content: "\ea08";
+  color: #418fde;
+}
+.hi-Technological-disaster:before {
+  content: "\ea09";
+  color: #418fde;
+}
+.hi-Temporary-camp:before {
+  content: "\ea0a";
+  color: #418fde;
+}
+.hi-Tent:before {
+  content: "\ea0b";
+  color: #418fde;
+}
+.hi-Toilet:before {
+  content: "\ea0c";
+  color: #418fde;
+}
+.hi-Tornado:before {
+  content: "\ea0d";
+  color: #418fde;
+}
+.hi-Trade-and-market:before {
+  content: "\ea0e";
+  color: #418fde;
+}
+.hi-Train:before {
+  content: "\ea0f";
+  color: #418fde;
+}
+.hi-Transition-site:before {
+  content: "\ea10";
+  color: #418fde;
+}
+.hi-Trending:before {
+  content: "\ea11";
+  color: #418fde;
+}
+.hi-Truck:before {
+  content: "\ea12";
+  color: #418fde;
+}
+.hi-Tsunami:before {
+  content: "\ea13";
+  color: #418fde;
+}
+.hi-Tunnel:before {
+  content: "\ea14";
+  color: #418fde;
+}
+.hi-UN-compound-office:before {
+  content: "\ea15";
+  color: #418fde;
+}
+.hi-UN-vehicle:before {
+  content: "\ea16";
+  color: #418fde;
+}
+.hi-University:before {
+  content: "\ea17";
+  color: #418fde;
+}
+.hi-Upload:before {
+  content: "\ea18";
+  color: #418fde;
+}
+.hi-Urban-rural:before {
+  content: "\ea19";
+  color: #418fde;
+}
+.hi-Urban:before {
+  content: "\ea1a";
+  color: #418fde;
+}
+.hi-User:before {
+  content: "\ea1b";
+  color: #418fde;
+}
+.hi-Users:before {
+  content: "\ea1c";
+  color: #418fde;
+}
+.hi-Vaccine:before {
+  content: "\ea1d";
+  color: #418fde;
+}
+.hi-Video:before {
+  content: "\ea1e";
+  color: #418fde;
+}
+.hi-Violent-wind:before {
+  content: "\ea1f";
+  color: #418fde;
+}
+.hi-Volcano:before {
+  content: "\ea20";
+  color: #418fde;
+}
+.hi-Walkie-talkie:before {
+  content: "\ea21";
+  color: #418fde;
+}
+.hi-Warning-Error:before {
+  content: "\ea22";
+  color: #418fde;
+}
+.hi-Water-Sanitation-and-Hygiene:before {
+  content: "\ea23";
+  color: #418fde;
+}
+.hi-Water-source:before {
+  content: "\ea24";
+  color: #418fde;
+}
+.hi-Water-trucking:before {
+  content: "\ea25";
+  color: #418fde;
+}
+.hi-ZIP-compressed:before {
+  content: "\ea26";
+  color: #418fde;
+}

@@ -1,0 +1,1030 @@
+@font-face {
+  font-family: 'Humanitarian-Icons-v02';
+  src:  url('../fonts/Humanitarian-Icons-v02.eot?134lo3');
+  src:  url('../fonts/Humanitarian-Icons-v02.eot?134lo3#iefix') format('embedded-opentype'),
+    url('../fonts/Humanitarian-Icons-v02.ttf?134lo3') format('truetype'),
+    url('../fonts/Humanitarian-Icons-v02.woff?134lo3') format('woff'),
+    url('../fonts/Humanitarian-Icons-v02.svg?134lo3#Humanitarian-Icons-v02') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="hi-"], [class*=" hi-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Humanitarian-Icons-v02' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hi-Abduction-kidnapping:before {
+  content: "\e900";
+}
+.hi-About:before {
+  content: "\e901";
+}
+.hi-Add-document:before {
+  content: "\e902";
+}
+.hi-Add:before {
+  content: "\e903";
+}
+.hi-Advocacy:before {
+  content: "\e904";
+}
+.hi-Affected-population:before {
+  content: "\e905";
+}
+.hi-Agriculture:before {
+  content: "\e906";
+}
+.hi-Airport-affected:before {
+  content: "\e907";
+}
+.hi-Airport-destroyed:before {
+  content: "\e908";
+}
+.hi-Airport-military:before {
+  content: "\e909";
+}
+.hi-Airport-not-affected:before {
+  content: "\e90a";
+}
+.hi-Airport:before {
+  content: "\e90b";
+}
+.hi-Alert:before {
+  content: "\e90c";
+}
+.hi-Analysis:before {
+  content: "\e90d";
+}
+.hi-Arrest-detention:before {
+  content: "\e90e";
+}
+.hi-Assault:before {
+  content: "\e90f";
+}
+.hi-Assembly-point:before {
+  content: "\e910";
+}
+.hi-Assessment:before {
+  content: "\e911";
+}
+.hi-Attack:before {
+  content: "\e912";
+}
+.hi-Blanket:before {
+  content: "\e913";
+}
+.hi-Blog:before {
+  content: "\e914";
+}
+.hi-Boat:before {
+  content: "\e915";
+}
+.hi-Bookmark:before {
+  content: "\e916";
+}
+.hi-Border-crossing:before {
+  content: "\e917";
+}
+.hi-Borehole:before {
+  content: "\e918";
+}
+.hi-Bottled-water:before {
+  content: "\e919";
+}
+.hi-Bridge-affected:before {
+  content: "\e91a";
+}
+.hi-Bridge-destroyed:before {
+  content: "\e91b";
+}
+.hi-Bridge-not-affected:before {
+  content: "\e91c";
+}
+.hi-Bridge:before {
+  content: "\e91d";
+}
+.hi-Bucket:before {
+  content: "\e91e";
+}
+.hi-Buddhist-temple:before {
+  content: "\e91f";
+}
+.hi-Building-facility-affected:before {
+  content: "\e920";
+}
+.hi-Building-facility-destroyed:before {
+  content: "\e921";
+}
+.hi-Building-facility-not-affected:before {
+  content: "\e922";
+}
+.hi-Building:before {
+  content: "\e923";
+}
+.hi-Bus:before {
+  content: "\e924";
+}
+.hi-Calendar:before {
+  content: "\e925";
+}
+.hi-Camp-Coordination-and-Camp-Management:before {
+  content: "\e926";
+}
+.hi-Car:before {
+  content: "\e927";
+}
+.hi-Carjacking:before {
+  content: "\e928";
+}
+.hi-Cash-transfer:before {
+  content: "\e929";
+}
+.hi-Cell-tower:before {
+  content: "\e92a";
+}
+.hi-Chart:before {
+  content: "\e92b";
+}
+.hi-Chat:before {
+  content: "\e92c";
+}
+.hi-Checkpoint:before {
+  content: "\e92d";
+}
+.hi-Child-combatant:before {
+  content: "\e92e";
+}
+.hi-Children:before {
+  content: "\e92f";
+}
+.hi-Church:before {
+  content: "\e930";
+}
+.hi-Civil-military-coordination:before {
+  content: "\e931";
+}
+.hi-Clinic:before {
+  content: "\e932";
+}
+.hi-Clothing:before {
+  content: "\e933";
+}
+.hi-Cold-wave:before {
+  content: "\e934";
+}
+.hi-Communal-latrine:before {
+  content: "\e935";
+}
+.hi-Community-building:before {
+  content: "\e936";
+}
+.hi-Community-engagement:before {
+  content: "\e937";
+}
+.hi-Computer:before {
+  content: "\e938";
+}
+.hi-Conflict:before {
+  content: "\e939";
+}
+.hi-Coordinated-assessement:before {
+  content: "\e93a";
+}
+.hi-Coordination:before {
+  content: "\e93b";
+}
+.hi-Copy:before {
+  content: "\e93c";
+}
+.hi-Cyclone:before {
+  content: "\e93d";
+}
+.hi-Damaged-Affected:before {
+  content: "\e93e";
+}
+.hi-Dangerous-area:before {
+  content: "\e93f";
+}
+.hi-Data:before {
+  content: "\e940";
+}
+.hi-Dead:before {
+  content: "\e941";
+}
+.hi-Debris-management:before {
+  content: "\e942";
+}
+.hi-Deployment:before {
+  content: "\e943";
+}
+.hi-Destroyed:before {
+  content: "\e944";
+}
+.hi-Detergent:before {
+  content: "\e945";
+}
+.hi-Diplomatic-mission:before {
+  content: "\e946";
+}
+.hi-Distribution-site:before {
+  content: "\e947";
+}
+.hi-Document:before {
+  content: "\e948";
+}
+.hi-Download:before {
+  content: "\e949";
+}
+.hi-Drought:before {
+  content: "\e94a";
+}
+.hi-Drowned:before {
+  content: "\e94b";
+}
+.hi-E-mail:before {
+  content: "\e94c";
+}
+.hi-Early-Recovery:before {
+  content: "\e94d";
+}
+.hi-Earthmound:before {
+  content: "\e94e";
+}
+.hi-Earthquake:before {
+  content: "\e94f";
+}
+.hi-Education:before {
+  content: "\e950";
+}
+.hi-Elderly:before {
+  content: "\e951";
+}
+.hi-Emergency-Telecommunications:before {
+  content: "\e952";
+}
+.hi-Environment:before {
+  content: "\e953";
+}
+.hi-Epidemic:before {
+  content: "\e954";
+}
+.hi-Exit-Cancel:before {
+  content: "\e955";
+}
+.hi-Favourite:before {
+  content: "\e956";
+}
+.hi-Fax:before {
+  content: "\e957";
+}
+.hi-Ferry:before {
+  content: "\e958";
+}
+.hi-Film:before {
+  content: "\e959";
+}
+.hi-Financing:before {
+  content: "\e95a";
+}
+.hi-Fire:before {
+  content: "\e95b";
+}
+.hi-Fishery:before {
+  content: "\e95c";
+}
+.hi-Flash-flood:before {
+  content: "\e95d";
+}
+.hi-Flood:before {
+  content: "\e95e";
+}
+.hi-Flour:before {
+  content: "\e95f";
+}
+.hi-Folder:before {
+  content: "\e960";
+}
+.hi-Food-Security:before {
+  content: "\e961";
+}
+.hi-Food-warehouse:before {
+  content: "\e962";
+}
+.hi-Food:before {
+  content: "\e963";
+}
+.hi-Forced-entry:before {
+  content: "\e964";
+}
+.hi-Forced-recruitment:before {
+  content: "\e965";
+}
+.hi-Fund:before {
+  content: "\e966";
+}
+.hi-Gap-analysis:before {
+  content: "\e967";
+}
+.hi-Gas-station:before {
+  content: "\e968";
+}
+.hi-Go:before {
+  content: "\e969";
+}
+.hi-Government-office:before {
+  content: "\e96a";
+}
+.hi-Group:before {
+  content: "\e96b";
+}
+.hi-Harassment-intimidation:before {
+  content: "\e96c";
+}
+.hi-Health-facility:before {
+  content: "\e96d";
+}
+.hi-Health-post:before {
+  content: "\e96e";
+}
+.hi-Health:before {
+  content: "\e96f";
+  color: #5091cd;
+}
+.hi-Heatwave:before {
+  content: "\e970";
+}
+.hi-Heavy-rain:before {
+  content: "\e971";
+}
+.hi-Helicopter:before {
+  content: "\e972";
+}
+.hi-Helipad:before {
+  content: "\e973";
+}
+.hi-Help:before {
+  content: "\e974";
+}
+.hi-Hidden:before {
+  content: "\e975";
+}
+.hi-Hindu-temple:before {
+  content: "\e976";
+}
+.hi-Hospital:before {
+  content: "\e977";
+}
+.hi-Hotel:before {
+  content: "\e978";
+}
+.hi-House-affected:before {
+  content: "\e979";
+}
+.hi-House-burned:before {
+  content: "\e97a";
+}
+.hi-House-destroyed:before {
+  content: "\e97b";
+}
+.hi-House-not-affected:before {
+  content: "\e97c";
+}
+.hi-House:before {
+  content: "\e97d";
+}
+.hi-Humanitarian-access:before {
+  content: "\e97e";
+}
+.hi-Humanitarian-programme-cycle:before {
+  content: "\e97f";
+}
+.hi-IDP-refugee-camp:before {
+  content: "\e980";
+}
+.hi-Infant-formula:before {
+  content: "\e981";
+}
+.hi-Infant:before {
+  content: "\e982";
+}
+.hi-Information-management:before {
+  content: "\e983";
+}
+.hi-Information-technology:before {
+  content: "\e984";
+}
+.hi-Infrastructure:before {
+  content: "\e985";
+}
+.hi-Injured:before {
+  content: "\e986";
+}
+.hi-Innovation:before {
+  content: "\e987";
+}
+.hi-Insect-infestation:before {
+  content: "\e988";
+}
+.hi-Internally-displaced:before {
+  content: "\e989";
+}
+.hi-Internet:before {
+  content: "\e98a";
+}
+.hi-Kitchen-set:before {
+  content: "\e98b";
+}
+.hi-Landslide-mudslide:before {
+  content: "\e98c";
+}
+.hi-Laptop:before {
+  content: "\e98d";
+}
+.hi-Latrine-cabin:before {
+  content: "\e98e";
+}
+.hi-Leadership:before {
+  content: "\e98f";
+}
+.hi-Learning:before {
+  content: "\e990";
+}
+.hi-Livelihood:before {
+  content: "\e991";
+}
+.hi-Livestock:before {
+  content: "\e992";
+}
+.hi-Location:before {
+  content: "\e993";
+}
+.hi-Locust-infestation:before {
+  content: "\e994";
+}
+.hi-Logistics:before {
+  content: "\e995";
+}
+.hi-Map:before {
+  content: "\e996";
+}
+.hi-Mattress:before {
+  content: "\e997";
+}
+.hi-Medical-supply:before {
+  content: "\e998";
+}
+.hi-Medicine:before {
+  content: "\e999";
+}
+.hi-Meeting:before {
+  content: "\e99a";
+}
+.hi-Menu:before {
+  content: "\e99b";
+}
+.hi-Military-gate:before {
+  content: "\e99c";
+}
+.hi-Mine:before {
+  content: "\e99d";
+}
+.hi-Missing:before {
+  content: "\e99e";
+}
+.hi-Mobile-clinic:before {
+  content: "\e99f";
+}
+.hi-Mobile-phone:before {
+  content: "\e9a0";
+}
+.hi-Monitor:before {
+  content: "\e9a1";
+}
+.hi-Monitoring:before {
+  content: "\e9a2";
+}
+.hi-More-options:before {
+  content: "\e9a3";
+}
+.hi-Mosque:before {
+  content: "\e9a4";
+}
+.hi-Mosquito-net:before {
+  content: "\e9a5";
+}
+.hi-Multi-cluster-sector:before {
+  content: "\e9a6";
+}
+.hi-Murder:before {
+  content: "\e9a7";
+}
+.hi-National-army:before {
+  content: "\e9a8";
+}
+.hi-Needs-assessment:before {
+  content: "\e9a9";
+}
+.hi-Next-item:before {
+  content: "\e9aa";
+}
+.hi-NGO-office:before {
+  content: "\e9ab";
+}
+.hi-Non-food-items:before {
+  content: "\e9ac";
+}
+.hi-Not-affected:before {
+  content: "\e9ad";
+}
+.hi-Notification:before {
+  content: "\e9ae";
+}
+.hi-Nutrition:before {
+  content: "\e9af";
+}
+.hi-Observation-tower:before {
+  content: "\e9b0";
+}
+.hi-Oil:before {
+  content: "\e9b1";
+}
+.hi-Out-of-platform:before {
+  content: "\e9b2";
+}
+.hi-Partnership:before {
+  content: "\e9b3";
+}
+.hi-Pause:before {
+  content: "\e9b4";
+}
+.hi-Peacekeeping-force:before {
+  content: "\e9b5";
+}
+.hi-People-with-physical-impairments:before {
+  content: "\e9b6";
+}
+.hi-Permanent-camp:before {
+  content: "\e9b7";
+}
+.hi-Person-1:before {
+  content: "\e9b8";
+  color: #5091cd;
+}
+.hi-Person-2:before {
+  content: "\e9b9";
+}
+.hi-Photo:before {
+  content: "\e9ba";
+}
+.hi-Physical-closure:before {
+  content: "\e9bb";
+}
+.hi-Plastic-sheeting:before {
+  content: "\e9bc";
+}
+.hi-Police-station:before {
+  content: "\e9bd";
+}
+.hi-Policy:before {
+  content: "\e9be";
+}
+.hi-Population-growth:before {
+  content: "\e9bf";
+}
+.hi-Population-return:before {
+  content: "\e9c0";
+}
+.hi-Port-affected:before {
+  content: "\e9c1";
+}
+.hi-Port-destroyed:before {
+  content: "\e9c2";
+}
+.hi-Port-not-affected:before {
+  content: "\e9c3";
+}
+.hi-Port:before {
+  content: "\e9c4";
+}
+.hi-Potable-water-source:before {
+  content: "\e9c5";
+}
+.hi-Potable-water:before {
+  content: "\e9c6";
+}
+.hi-Pregnant:before {
+  content: "\e9c7";
+}
+.hi-Preparedness:before {
+  content: "\e9c8";
+}
+.hi-Previous-item:before {
+  content: "\e9c9";
+}
+.hi-Print:before {
+  content: "\e9ca";
+}
+.hi-Protection:before {
+  content: "\e9cb";
+}
+.hi-Public-information:before {
+  content: "\e9cc";
+}
+.hi-Radio:before {
+  content: "\e9cd";
+}
+.hi-Rebel:before {
+  content: "\e9ce";
+}
+.hi-Reconstruction:before {
+  content: "\e9cf";
+}
+.hi-Refugee:before {
+  content: "\e9d0";
+}
+.hi-Registration:before {
+  content: "\e9d1";
+}
+.hi-Relief-goods:before {
+  content: "\e9d2";
+}
+.hi-Remove-document:before {
+  content: "\e9d3";
+}
+.hi-Remove:before {
+  content: "\e9d4";
+}
+.hi-Report:before {
+  content: "\e9d5";
+}
+.hi-Reporting:before {
+  content: "\e9d6";
+}
+.hi-Response:before {
+  content: "\e9d7";
+}
+.hi-Return:before {
+  content: "\e9d8";
+}
+.hi-Rice:before {
+  content: "\e9d9";
+}
+.hi-Road-affected:before {
+  content: "\e9da";
+}
+.hi-Road-barrier:before {
+  content: "\e9db";
+}
+.hi-Road-destroyed:before {
+  content: "\e9dc";
+}
+.hi-Road-not-affected:before {
+  content: "\e9dd";
+}
+.hi-Road:before {
+  content: "\e9de";
+}
+.hi-Roadblock:before {
+  content: "\e9df";
+}
+.hi-Robbery:before {
+  content: "\e9e0";
+}
+.hi-Rule-of-law-and-justice:before {
+  content: "\e9e1";
+}
+.hi-Rural-exodus:before {
+  content: "\e9e2";
+}
+.hi-Rural:before {
+  content: "\e9e3";
+}
+.hi-Safety-and-security:before {
+  content: "\e9e4";
+}
+.hi-Salt:before {
+  content: "\e9e5";
+}
+.hi-Sanitation:before {
+  content: "\e9e6";
+}
+.hi-Satellite-dish:before {
+  content: "\e9e7";
+}
+.hi-Save:before {
+  content: "\e9e8";
+}
+.hi-Scale-down-operation:before {
+  content: "\e9e9";
+}
+.hi-Scale-up-operation:before {
+  content: "\e9ea";
+}
+.hi-School-affected:before {
+  content: "\e9eb";
+}
+.hi-School-destroyed:before {
+  content: "\e9ec";
+}
+.hi-School-not-affected:before {
+  content: "\e9ed";
+}
+.hi-School:before {
+  content: "\e9ee";
+}
+.hi-Search:before {
+  content: "\e9ef";
+}
+.hi-See:before {
+  content: "\e9f0";
+}
+.hi-Selected:before {
+  content: "\e9f1";
+}
+.hi-Services-and-tools:before {
+  content: "\e9f2";
+}
+.hi-Settings:before {
+  content: "\e9f3";
+}
+.hi-Sexual-violence:before {
+  content: "\e9f4";
+}
+.hi-Share:before {
+  content: "\e9f5";
+}
+.hi-Shelter:before {
+  content: "\e9f6";
+}
+.hi-Ship:before {
+  content: "\e9f7";
+}
+.hi-Shower:before {
+  content: "\e9f8";
+}
+.hi-Smartphone:before {
+  content: "\e9f9";
+}
+.hi-Snow-avalanche:before {
+  content: "\e9fa";
+}
+.hi-Snowfall:before {
+  content: "\e9fb";
+}
+.hi-Soap:before {
+  content: "\e9fc";
+}
+.hi-Solid-waste:before {
+  content: "\e9fd";
+}
+.hi-Spontaneous-site:before {
+  content: "\e9fe";
+}
+.hi-Spring-water:before {
+  content: "\e9ff";
+}
+.hi-Staff-management:before {
+  content: "\ea00";
+}
+.hi-Stop:before {
+  content: "\ea01";
+}
+.hi-Storm-surge:before {
+  content: "\ea02";
+}
+.hi-Storm:before {
+  content: "\ea03";
+}
+.hi-Stove:before {
+  content: "\ea04";
+}
+.hi-Submersible-pump:before {
+  content: "\ea05";
+}
+.hi-Sugar:before {
+  content: "\ea06";
+}
+.hi-Table:before {
+  content: "\ea07";
+}
+.hi-Tarpaulin:before {
+  content: "\ea08";
+}
+.hi-Technological-disaster:before {
+  content: "\ea09";
+}
+.hi-Temporary-camp:before {
+  content: "\ea0a";
+}
+.hi-Tent:before {
+  content: "\ea0b";
+}
+.hi-Toilet:before {
+  content: "\ea0c";
+}
+.hi-Tornado:before {
+  content: "\ea0d";
+}
+.hi-Trade-and-market:before {
+  content: "\ea0e";
+}
+.hi-Train:before {
+  content: "\ea0f";
+}
+.hi-Transition-site:before {
+  content: "\ea10";
+}
+.hi-Trending:before {
+  content: "\ea11";
+}
+.hi-Truck:before {
+  content: "\ea12";
+}
+.hi-Tsunami:before {
+  content: "\ea13";
+}
+.hi-Tunnel:before {
+  content: "\ea14";
+}
+.hi-UN-compound-office:before {
+  content: "\ea15";
+}
+.hi-UN-vehicle:before {
+  content: "\ea16";
+}
+.hi-University:before {
+  content: "\ea17";
+}
+.hi-Upload:before {
+  content: "\ea18";
+}
+.hi-Urban-rural:before {
+  content: "\ea19";
+}
+.hi-Urban:before {
+  content: "\ea1a";
+}
+.hi-User:before {
+  content: "\ea1b";
+}
+.hi-Users:before {
+  content: "\ea1c";
+}
+.hi-Vaccine:before {
+  content: "\ea1d";
+}
+.hi-Video:before {
+  content: "\ea1e";
+}
+.hi-Violent-wind:before {
+  content: "\ea1f";
+}
+.hi-Volcano:before {
+  content: "\ea20";
+}
+.hi-Walkie-talkie:before {
+  content: "\ea21";
+}
+.hi-Warning-Error:before {
+  content: "\ea22";
+}
+.hi-Water-Sanitation-and-Hygiene:before {
+  content: "\ea23";
+}
+.hi-Water-source:before {
+  content: "\ea24";
+}
+.hi-Water-trucking:before {
+  content: "\ea25";
+}
+.hi-ZIP-compressed:before {
+  content: "\ea26";
+}
+/*  Duplication of the FontAwesome style classes using 'hi' in place of 'fa'. */
+.hi-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.hi-2x {
+  font-size: 2em;
+}
+.hi-3x {
+  font-size: 3em;
+}
+.hi-4x {
+  font-size: 4em;
+}
+.hi-5x {
+  font-size: 5em;
+}
+.hi-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.hi-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.hi-ul > li {
+  position: relative;
+}
+.hi-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+.hi-li.fa-lg {
+  left: -1.85714286em;
+}
+.hi-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+.hi-pull-left {
+  float: left;
+}
+.hi-pull-right {
+  float: right;
+}
+.hi.fa-pull-left {
+  margin-right: .3em;
+}
+.hi.fa-pull-right {
+  margin-left: .3em;
+}
+/*  
+ *  Repeat of the FontAwesome style classes to prevent override if academicons.css
+ *  is called after font-awesome.css.
+ */
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fa-2x {
+  font-size: 2em;
+}
+.fa-3x {
+  font-size: 3em;
+}
+.fa-4x {
+  font-size: 4em;
+}
+.fa-5x {
+  font-size: 5em;
+}
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.fa-ul > li {
+  position: relative;
+}
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+.fa-li.fa-lg {
+  left: -1.85714286em;
+}
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+.fa-pull-left {
+  float: left;
+}
+.fa-pull-right {
+  float: right;
+}
+.fa.fa-pull-left {
+  margin-right: .3em;
+}
+.fa.fa-pull-right {
+  margin-left: .3em;
+}

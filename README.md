@@ -3,7 +3,7 @@
 
 An R package to easily insert humanitarian web icons into rmarkdown.
 
-It works with inline code `` `r humicon::humicon("Agriculture")` `` and
+It works with inline code `` `r humicon::hi("Agriculture")` `` and
 chunks:
 
 ```` 

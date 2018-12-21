@@ -21,16 +21,13 @@ options(htmltools.dir.version = FALSE)
 library(humicon)
 ```
 
-```{r, fig.align='center', echo = FALSE}
-knitr::include_graphics("logo.png")
-```
+
 
 # Easily insert web icons into RMarkdown
 
 ---
 
-## Let's fly a rocket!
-
+## Standard icons
 --
 
 * Get started
@@ -41,7 +38,7 @@ humicon::hi("Agriculture")
 
 --
 
-* Bigger
+* Playing with size
 
 ```{r}
 humicon::hi("Deployment", size = 2)
@@ -49,7 +46,7 @@ humicon::hi("Deployment", size = 2)
 
 --
 
-* Bigger than bigger
+* We can change color
 
 ```{r}
 humicon::hi("Deployment", colour = "red", size = 5)
@@ -57,7 +54,7 @@ humicon::hi("Deployment", colour = "red", size = 5)
 
 ---
 
-## Yet another test
+## Adding border
 
 
 * Bigger than bigger
@@ -68,7 +65,7 @@ humicon::hi("Livestock", colour = "red", size = 3, border = TRUE)
 
 --
 
-* Bigger than bigger
+* Animating icons
 
 ```{r}
 humicon::hi("Assessment", color = "steelblue", animate = "spin")
@@ -77,8 +74,8 @@ humicon::hi("Assessment", color = "steelblue", animate = "spin")
 
 --
 
-* Bigger than bigger
+* Rotating icons
 
 ```{r}
-humicon::hi("Sanitation", color = "brown", rotate = 90, size = 4)
+humicon::hi("Sanitation", color = "brown", rotate = 90, size = 2)
 ```

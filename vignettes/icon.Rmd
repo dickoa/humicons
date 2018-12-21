@@ -13,4 +13,21 @@ vignette: >
 library(humicon)
 ```
 
-## Using an humanitarian icon
+## OCHA Humanitarian icons
+The `humicon` package allow you to easily embed OCHA humanitarian icons into Rmarkdown document.
+
+```{r}
+humicon::hi("Food-Security")
+```
+
+## Customising the icon
+
+You can customize your icons, here are the list of supported options:
+
+* Size `humicon::hi_Food_Security(size = 2)`: `r humicon::hi_Food_Security(size = 2)`
+* Rotation `humicon::hi_Food_Security(rotate = 180)`: `r humicon::hi_Food_Security(rotate = 180)`
+* Flip `humicon::hi_Food_Security(flip = "horizontal")`: `r humicon::hi_Food_Security(flip = "horizontal")`
+* Animation `humicon::hi_Food_Security(animate = "spin")`: `r humicon::hi_Food_Security(animate = "spin")`
+* Fixed width `humicon::hi_Food_Security(fixed_width = TRUE)`: `r humicon::hi_Food_Security(fixed_width = TRUE)`
+* Border `humicon::hi_Food_Security(border = TRUE)`: `r humicon::hi_Food_Security(border = TRUE)`
+* Pull `humicon::hi_Food_Security(pull = "left")`: `r humicon::hi_Food_Security(pull = "left")`

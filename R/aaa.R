@@ -8,5 +8,5 @@ get_humiconList <- function(path) {
 
 
 icon_system_file <- function(file) {
-  system.file(file, package = "humicon")
+  system.file(file, package = "humicons")
 }

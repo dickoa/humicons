@@ -3,13 +3,13 @@
 
 An R package to easily insert humanitarian web icons into rmarkdown.
 
-It works with inline code `` `r humicon::hi("Agriculture")` `` and
+It works with inline code `` `r humicons::hi("Agriculture")` `` and
 chunks:
 
 ```` 
 
 ```r
-humicon::hi("Agriculture")
+humicons::hi("Agriculture")
 ```
 ````
 
@@ -17,7 +17,7 @@ The **development** version can be installed from GitHub using:
 
 ``` r
 # install.packages("remotes")
-remotes::install_gitlab("dickoa/humicon")
+remotes::install_gitlab("dickoa/humicons")
 ```
 
 This package is a fork of the `icon` package by `ropensci`:

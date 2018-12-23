@@ -10,24 +10,25 @@ vignette: >
 ---
 
 ```{r setup, include=FALSE}
-library(humicon)
+library(humicons)
 ```
 
 ## OCHA Humanitarian icons
-The `humicon` package allow you to easily embed OCHA humanitarian icons into Rmarkdown document.
+The `humicons` package allow you to easily embed OCHA humanitarian icons into Rmarkdown document.
 
 ```{r}
-humicon::hi("Food-Security")
+humicons::hi("Food-Security")
 ```
 
 ## Customising the icon
 
 You can customize your icons, here are the list of supported options:
 
-* Size `humicon::hi_Food_Security(size = 2)`: `r humicon::hi_Food_Security(size = 2)`
-* Rotation `humicon::hi_Food_Security(rotate = 180)`: `r humicon::hi_Food_Security(rotate = 180)`
-* Flip `humicon::hi_Food_Security(flip = "horizontal")`: `r humicon::hi_Food_Security(flip = "horizontal")`
-* Animation `humicon::hi_Food_Security(animate = "spin")`: `r humicon::hi_Food_Security(animate = "spin")`
-* Fixed width `humicon::hi_Food_Security(fixed_width = TRUE)`: `r humicon::hi_Food_Security(fixed_width = TRUE)`
-* Border `humicon::hi_Food_Security(border = TRUE)`: `r humicon::hi_Food_Security(border = TRUE)`
-* Pull `humicon::hi_Food_Security(pull = "left")`: `r humicon::hi_Food_Security(pull = "left")`
+* Color `humicons::hi_Food_Security(size = 2)`: `r humicons::hi_Food_Security(color = "#418fde")`
+* Size `humicons::hi_Food_Security(size = 2)`: `r humicons::hi_Food_Security(size = 4)`
+* Rotation `humicons::hi_Food_Security(rotate = 180)`: `r humicons::hi_Food_Security(rotate = 180)`
+* Flip `humicons::hi_Food_Security(flip = "horizontal")`: `r humicons::hi_Food_Security(flip = "horizontal")`
+* Animation `humicons::hi_Food_Security(animate = "spin")`: `r humicons::hi_Food_Security(animate = "spin")`
+* Fixed width `humicons::hi_Food_Security(fixed_width = TRUE)`: `r humicons::hi_Food_Security(fixed_width = TRUE)`
+* Border `humicons::hi_Food_Security(border = TRUE)`: `r humicons::hi_Food_Security(border = TRUE)`
+* Pull `humicons::hi_Food_Security(pull = "left")`: `r humicons::hi_Food_Security(pull = "left")`

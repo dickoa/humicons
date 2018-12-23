@@ -14,11 +14,11 @@ knitr::opts_chunk$set(
 
 An R package to easily insert humanitarian web icons into rmarkdown.
 
-It works with inline code `` `r '\x60r humicon::hi("Agriculture")\x60'` `` and chunks:
+It works with inline code `` `r '\x60r humicons::hi("Agriculture")\x60'` `` and chunks:
 
 ````
 ```{r, eval=FALSE}
-humicon::hi("Agriculture")
+humicons::hi("Agriculture")
 ```
 ````
 
@@ -26,7 +26,7 @@ The **development** version can be installed from GitHub using:
 
 ```{r gh-installation, eval = FALSE}
 # install.packages("remotes")
-remotes::install_gitlab("dickoa/humicon")
+remotes::install_gitlab("dickoa/humicons")
 ```
 
 This package is a fork of the `icon` package by `ropensci`: https://github.com/ropenscilabs/icon

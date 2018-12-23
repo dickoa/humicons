@@ -24,11 +24,10 @@ humicons::hi("Food-Security")
 
 You can customize your icons, here are the list of supported options:
 
-* Color `humicons::hi_Food_Security(size = 2)`: `r humicons::hi_Food_Security(color = "#418fde")`
-* Size `humicons::hi_Food_Security(size = 2)`: `r humicons::hi_Food_Security(size = 4)`
+* Color `humicons::hi_Food_Security(color = "#418fde")`: `r humicons::hi_Food_Security(color = "#418fde")`
+* Size `humicons::hi_Food_Security(size = 3)`: `r humicons::hi_Food_Security(size = 3)`
 * Rotation `humicons::hi_Food_Security(rotate = 180)`: `r humicons::hi_Food_Security(rotate = 180)`
 * Flip `humicons::hi_Food_Security(flip = "horizontal")`: `r humicons::hi_Food_Security(flip = "horizontal")`
 * Animation `humicons::hi_Food_Security(animate = "spin")`: `r humicons::hi_Food_Security(animate = "spin")`
-* Fixed width `humicons::hi_Food_Security(fixed_width = TRUE)`: `r humicons::hi_Food_Security(fixed_width = TRUE)`
 * Border `humicons::hi_Food_Security(border = TRUE)`: `r humicons::hi_Food_Security(border = TRUE)`
 * Pull `humicons::hi_Food_Security(pull = "left")`: `r humicons::hi_Food_Security(pull = "left")`

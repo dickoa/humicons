@@ -10,7 +10,7 @@ pages:
 
   script:
     - Rscript -e 'install.packages(c("pkgdown", "remotes", "testthat"))'
-    - Rscript -e 'remotes::install_gitlab("dickoa/humicon")'
+    - Rscript -e 'remotes::install_gitlab("dickoa/humicons")'
     - Rscript -e 'pkgdown::build_site()'
     - mv docs public
     

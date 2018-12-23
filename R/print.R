@@ -20,7 +20,7 @@ knitr::knit_print
 #' @export
 knit_print.icon_hi <- function(x, ...) {
     if (knitOutputType() %in% c("pdf_document", "beamer", "pdf_document2")) {
-        knitr::asis_output(paste0("\\hiicon{", x$name, "}"), meta = list(rmarkdown::latex_dependency("humicons")))
+        knitr::asis_output(paste0("\\hi", x$name), meta = list(rmarkdown::latex_dependency("humicons")))
   } else if (knitOutputType() %in% c("word_document", "console")) {
     paste0("hi_", x$name)
   } else {

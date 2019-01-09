@@ -2,9 +2,9 @@
 
 S3method("+",knit_icon)
 S3method(knit_print,icon_hi)
-export(get_humicon)
 export(hi)
 export(hi_iconList)
+export(humicons)
 export(knit_print)
 exportPattern("^hi_")
 importFrom(knitr,knit_print)

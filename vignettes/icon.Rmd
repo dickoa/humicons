@@ -17,17 +17,17 @@ library(humicons)
 The `humicons` package allow you to easily embed OCHA humanitarian icons into Rmarkdown document.
 
 ```{r}
-humicons::hi("Food-Security")
+humicons::humicon_rmd("Food-Security")
 ```
 
 ## Customising the icon
 
 You can customize your icons, here are the list of supported options:
 
-* Color `humicons::hi_Food_Security(color = "#418fde")`: `r humicons::hi_Food_Security(color = "#418fde")`
-* Size `humicons::hi_Food_Security(size = 3)`: `r humicons::hi_Food_Security(size = 3)`
-* Rotation `humicons::hi_Food_Security(rotate = 180)`: `r humicons::hi_Food_Security(rotate = 180)`
-* Flip `humicons::hi_Food_Security(flip = "horizontal")`: `r humicons::hi_Food_Security(flip = "horizontal")`
-* Animation `humicons::hi_Food_Security(animate = "spin")`: `r humicons::hi_Food_Security(animate = "spin")`
-* Border `humicons::hi_Food_Security(border = TRUE)`: `r humicons::hi_Food_Security(border = TRUE)`
-* Pull `humicons::hi_Food_Security(pull = "left")`: `r humicons::hi_Food_Security(pull = "left")`
+* Color `humicons::humicon_rmd("food-security", color = "#418fde")`: `r humicons::humicon_rmd("food-security", color = "#418fde")`
+* Size `humicons::humicon_rmd("food-security", size = 3)`: `r humicons::humicon_rmd("food-security", size = 3)`
+* Rotation `humicons::humicon_rmd("food-security", rotate = 180)`: `r humicons::humicon_rmd("food-security", rotate = 180)`
+* Flip `humicons::humicon_rmd("food-security", flip = "horizontal")`: `r humicons::humicon_rmd("food-security", flip = "horizontal")`
+* Animation `humicons::humicon_rmd("food-security", animate = "spin")`: `r humicons::humicon_rmd("food-security", animate = "spin")`
+* Border `humicons::humicon_rmd("food-security", border = TRUE)`: `r humicons::humicon_rmd("food-security", border = TRUE)`
+* Pull `humicons::humicon_rmd("food-security", pull = "left")`: `r humicons::humicon_rmd("food-security", pull = "left")`

@@ -38,11 +38,11 @@ cat_icon.icon_hi <- function(x) {
   icon_string(x, icon = "hi")
 }
 
-paste_icon <- function(icon = "fas", other) {
+paste_icon <- function(icon = "hi", other) {
   paste0(" ", icon, "-", other)
 }
 
-icon_string <- function(x, icon = "fas", icon_class = icon) {
+icon_string <- function(x, icon = "hi", icon_class = icon) {
   # Determine fa string to use
   # -------------------------------------------------
   size_append <- switch(as.character(x$options$size), `1` = "", lg = paste_icon(icon,

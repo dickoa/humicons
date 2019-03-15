@@ -10,26 +10,29 @@ icon_system_file <- function(file) {
   system.file(file, package = "humicons")
 }
 
-humicon <- function(name) {
+
+check_icon_name <- function(name) {
     df <- humicons_data
     icon_list <- df$name
     bool <- tolower(name) %in% tolower(icon_list)
     if(!bool) {
         stop(paste0("Icon '", name, "' not found in OCHA Humaniarian Icons v02. Did you mean '", icon_list[which.min(adist(name, icon_list))], "'?"))
     }
-    code <- df$code[tolower(df$name) == tolower(name)]
-    intToUtf8(strtoi(code, 16L))
 }
 
+html_dependency_humicons <- function() {
+  htmltools::htmlDependency("humanitarian-icons", "2.0.0", src = icon_system_file("fonts/humanitarian-icons-2.0.0"),
+      stylesheet = "css/humicons.min.css")
+}
 
-#' Get OCHA Humanitarian icons v02 unicode
-#' 
-#' Get you the unicode to use in base graphic or ggplot2
-#' @param names character name of the icon see humicons_data
-#' @examples
-#' humicons(c("Urban", "Car"))
-#' 
+## Generate all functions for all icons
+#' @rdname humicon_rmd
 #' @export
-humicons <- function(names) {
-    vapply(names, humicon, character(1))
-}
+hi_iconList <- get_humiconList(with(html_dependency_humicons(), paste0(src$file, "/", stylesheet)))
+
+#' Humicons alias
+#'
+#' @rdname humicon_rmd-alias
+#' @name humicon_rmd-alias
+#' @usage NULL
+NULL

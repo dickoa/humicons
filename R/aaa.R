@@ -1,5 +1,5 @@
 #' @importFrom utils tail
-get_humiconList <- function(path) {
+get_humicon_list <- function(path) {
     l <- readLines(path)
     l <- l[grep("^.hi", l)]
     r <- gsub("\\:before \\{|\\.hi\\-", "", l)
@@ -9,7 +9,6 @@ get_humiconList <- function(path) {
 icon_system_file <- function(file) {
   system.file(file, package = "humicons")
 }
-
 
 check_icon_name <- function(name) {
     df <- humicons_data
@@ -28,11 +27,13 @@ html_dependency_humicons <- function() {
 ## Generate all functions for all icons
 #' @rdname humicon_rmd
 #' @export
-hi_iconList <- get_humiconList(with(html_dependency_humicons(), paste0(src$file, "/", stylesheet)))
+hi_icon_list <- get_humicon_list(with(html_dependency_humicons(), paste0(src$file, "/", stylesheet)))
 
-#' Humicons alias
-#'
-#' @rdname humicon_rmd-alias
-#' @name humicon_rmd-alias
-#' @usage NULL
-NULL
+#' @noRd
+font_style <- function(x) {
+  out <- NULL
+  if(!is.null(x$options$colour)) {
+    out <- paste0(out, "color:", x$options$colour, ";")
+  }
+  out
+}

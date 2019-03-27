@@ -1,7 +1,7 @@
 Package: humicons
 Type: Package
 Title: OCHA Humanitarian Icons v02 web-font for RMarkdown
-Version: 0.0.1
+Version: 0.1.0.9000
 Authors@R: c(
     person("Ahmadou", "Dicko", email = "mail@ahmadoudicko.com", role = c("aut", "cre")))
 Description: This package allows easy insertion of the new set of humanitarian icons into RMarkdown.

@@ -1,24 +1,39 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-An R package to easily insert humanitarian web icons into rmarkdown.
+An R package to easily insert humanitarian web icons into rmarkdown,
+shiny and as text (to include in `ggplot2`).
 
-It works with inline code `` `r humicons::hi("Agriculture")` `` and
-chunks:
+### Shiny
 
 ```` 
 
 ```r
-humicons::hi("Agriculture")
+humicons::humicon("Agriculture")
 ```
 ````
 
-The **development** version can be installed from GitHub using:
+### R markdown
+
+```` 
+
+```r
+humicons::humicon_rmd("Agriculture")
+```
+````
+
+### Text
+
+```` 
+
+```r
+humicons::humicon_chr("Agriculture")
+```
+````
+
+The **development** version can be installed from GitLab using:
 
 ``` r
 # install.packages("remotes")
 remotes::install_gitlab("dickoa/humicons")
 ```
-
-This package is a fork of the `icon` package by `ropensci`:
-<https://github.com/ropenscilabs/icon>
